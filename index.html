@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="title">
+        <h1>PS-90 配合割合</h1>
+    </div>
+    <div class="input">
+        <table>
+            <tr>
+                <td>温度を入力</td>
+                <td>主剤を入力</td>
+            </tr>
+            <tr>
+                <td><input type="text" id="temp">℃</td>
+                <td><input type="text" id="main">g</td>
+            </tr>
+        </table>
+        <button id="executionButton">実行</button>
+    </div>
+    <div class="output">
+        <table border="1" style="border-collapse: collapse;">
+            <tr>
+                <th>塗料</th>
+                <td>量（g）</td>
+            </tr>
+            <tr>
+                <th>うすめ液</th>
+                <td id="diluteLiquid"></td>
+            </tr>
+            <tr>
+                <th>促進剤</th>
+                <td id="accelerator"></td>
+            </tr>
+            <tr>
+                <th>硬化剤</th>
+                <td id="hardener"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+<script type="text/javascript" src="script.js"></script>
+
+</html>

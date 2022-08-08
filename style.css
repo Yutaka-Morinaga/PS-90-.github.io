@@ -1,0 +1,38 @@
+body {
+    background-color: #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#executionButton {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+tr {
+    text-align: center;
+}
+
+td,
+th {
+    width: 8rem;
+}
+
+input {
+    width: 100px;
+}
+
+#temp {
+    text-align: right;
+}
+
+#main {
+    text-align: right;
+}
